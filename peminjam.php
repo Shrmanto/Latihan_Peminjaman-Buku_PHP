@@ -21,13 +21,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css">
 </head>
 <body>
-    <a href="index.php" class="btn btn-warning" style="padding: 20px; color: white;">
-        <i class="fa-solid fa-arrow-left"></i>
-    </a>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center" style="min-height:100vh; align-items:center">
         <div class="card" style="width: 60rem;">
-            <div class="card-header">
-                <h1 class="text-center">Data Peminjam</h1>
+            <div class="card-header d-flex">
+                <a href="index.php" class="btn me-3 rounded-circle" style="padding:10px; border:none">
+                    <i class="fa-solid fa-circle-xmark fa-2xl" style="color: #ff0000;"></i>
+                </a>
+                <h1>Data Peminjam</h1>
             </div>
             <div class="card-body">
                 <a href="add.php">

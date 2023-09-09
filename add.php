@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css">
 </head>
 <body>
-    <div class="container d-flex justify-content-center" style="margin-top: 250px;">
+    <div class="container d-flex justify-content-center" style="min-height:100vh; align-items:center">
         <div class="card" style="width: 40rem;">
             <div class="card-header">
                 <h2 class="text-center">Tambah Data</h2>

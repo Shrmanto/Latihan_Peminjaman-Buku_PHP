@@ -12,4 +12,7 @@
         die("Koneksi gagal: " . $koneksi->connect_error);
     }
 
+    $success = "";
+    $error = "";
+
 ?>
